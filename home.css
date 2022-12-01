@@ -70,7 +70,9 @@ header .center nav ul li a {
 @media screen and (max-width: 1200px) {
     .banner-principal {
         background-image: url('images/bg.png');
-        background-size: contain;
     }
 
+    .banner-principal .box-items span {
+        position: unset;
+    }
 }
