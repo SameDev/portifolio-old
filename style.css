@@ -244,6 +244,39 @@ header .center nav ul li a:hover {
     width: 100%;
 }
 
+/* CERTIFICADOS */
+.box-certificados {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-certificado {
+    text-align: center;
+}
+
+.box-certificado img {
+    width: 100%;
+}
+
+.box-certificado h3 {
+    font-size: 13pt;
+    font-weight: 600;
+}
+
+.box-certificado a {
+    display: block;
+    padding: 10px 40px ;
+    background-color: var(--main-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10pt;
+    border-radius: 10px;
+    border-bottom: 1px solid #a21627;
+    border-right: 1px solid #a21627;
+    margin: 10px 0;
+}
+
 /* footer */
 footer {
     padding: 20px 250px;
@@ -372,14 +405,14 @@ footer ul li a {
 
     /* animação */
     [data-animation="left"] {
-        transform: translate3d(0, 0, 0);
+        transform: translate3d(0, -50px, 0);
       }
       
       [data-animation="right"] {
-        transform: translate3d(0, 0, 0);
+        transform: translate3d(0, -50px, 0);
       }
       
       [data-animation="top"] {
-        transform: translate3d(0, 0, 0);
+        transform: translate3d(0, -50px, 0);
       }
 }
